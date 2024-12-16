@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscorp Logistics</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./images/logo.png" alt="">
+        </div>
+        <div class="navbar">
+            <a href="index.html">
+                <h3>Home</h3>
+            </a>
+            <a href="OurProjects.html" class="active" onclick="timeTableAll()">
+                <h3>Our Projects</h3>
+            </a> 
+            <a href="AboutUs.html">
+                <h3>About Us</h3>
+            </a>
+
+        </div>
+        <div id="profile-btn" style="display: none;">
+        </div>
+        <div class="theme-toggler">
+     
+            <span class="material-icons-sharp">dark_mode</span>
+        </div>
+        
+    </header>
+
+    <main style="margin: 0;">
+        <div class="timetable active" id="timetable">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cargo in China</th>
+                        <div class="china"><img src="orig.jpg" alt=""></div>
+                        <th>Cargo in Russia</th>
+                        <div class="russia"><img src="cargo.jpg" alt=""></div>
+                        <th>Cargo in Canada</th>
+                        <div class="canada"><img src="canada.jpg" alt=""></div>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </main>
+
+</body>
+
+
+<script src="app.js"></script>
+</html>
