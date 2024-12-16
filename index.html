@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscorp logistics</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo" title="Logistics sys">
+            <img src="./images/logo.png" alt="">
+    
+        </div>
+        <div class="navbar">
+            <a href="index.html" class="active">
+         
+                <h3>Home</h3>
+            </a>
+            <a href="OurProjects.html">
+              
+                <h3>Our Projects</h3>
+            </a> 
+            <a href="AboutUs.html">
+              
+                <h3>About us</h3>
+            </a>
+
+        
+        </div>
+        <div id="profile-btn">
+        </div>
+        <div class="theme-toggler">
+
+            <span class="material-icons-sharp">dark_mode</span>
+        </div>
+        
+    </header>
+    <div class="container">
+        <aside>
+            <div class="profile">
+                <div class="top">
+                    <div class="profile-photo">
+                        <img src="i (1).webp" alt="">
+                    </div>
+                    <div class="info">
+                        <p>Hey, <b>Dear Guest</b> </p>
+                    </div>
+                </div>
+                <div class="about">
+                    <h5>Our Stage </h5>
+                    <p>12 years</p>
+                    <h5>Safety</h5>
+                    <p>All products are protected by confidentiality</p>
+                    <h5>Our mission</h5>
+                    <p>Providing innovative logistics services of international standard.Providing <br>
+                        innovative logistics services of international standard.</p>
+                    <h5>Our Aim</h5>
+                    <p>We are committed to constantly moving towards improving and optimizing our activities to meet the needs of our customers.</p>
+                    <h5>Our corporate values</h5>
+                    <p>- Responsibility - Innovation - Openness - Creative team spirit</p>
+                </div>
+            </div>
+        </aside>
+
+        <main>
+            <h1>based on 2024.</h1>
+            <div class="subjects">
+                <div class="eg">
+                    <h3>Logistics Services</h3>
+                    <h2>120</h2>
+                    <div class="progress">
+                       
+                        <div class="number"><p>86%</p></div>
+                    </div>
+                    <small class="text-muted">Last 46 weeks</small>
+                </div>
+                <div class="mth">
+                    <h3>Years of experience</h3>
+                    <h2>29 years</h2>
+                    <div class="progress">
+                        
+                        <div class="number"><p>93%</p></div>
+                    </div>
+                    <small class="text-muted">Last 20 weeks</small>
+                </div>
+                <div class="cs">
+                    <h3>successfully implemented projects</h3>
+                    <h2>27/30</h2>
+                    <div class="progress">
+                      
+                        <div class="number"><p>81%</p></div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <div class="cg">
+                    <h3>international projects</h3>
+                    <h2>24/25</h2>
+                    <div class="progress">
+                        <div class="number"><p>96%</p></div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <div class="net">
+                    <h3>Location</h3>
+                    <h2>Bishkek, Kyrgyzstan</h2>
+                    <div class="progress">
+                        <div class="number"><p>182.78.654</p></div>
+                    </div>
+                    <small class="text-muted">Now</small>
+                </div>
+            </div>
+
+            <div class="timetable" id="timetable">
+                <div>
+                    <span id="prevDay">&lt;</span>
+                    <h2>Our Plans</h2>
+                    <span id="nextDay">&gt;</span>
+                </div>
+                <span class="closeBtn" onclick="timeTableAll()">X</span>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Korea</th>
+                            <th>Turkey</th>
+                            <th>USA</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </main>
+
+        <div class="right">
+            <div class="announcements">
+                <h2>Oscorp</h2>
+                <div class="updates">
+                    <div class="message">
+                        <p> <b>Our main goal is</b> Summer training internship with Live Projects.</p>
+                        <small class="text-muted">Build Your Dreams</small>
+                    </div>
+                    <div class="message">
+                        <p> <b>international cargo transportation</b> Global internship oportunity by Student organization.</p>
+                        <small class="text-muted">Plane, train, car</small>
+                    </div>
+                    <div class="message">
+                        <p> <b>advantages</b><p>High quality and reliability. development of the optimal route</p>
+                        <small class="text-muted">tracking the movement of cargo</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="leaves">
+                <h2>Our founders</h2>
+                <div class="teacher">
+                    <div class="profile-photo"><img src="karina.jpg"></div>
+                    <div class="info">
+                        <h3>The Professor</h3>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                </div>
+                <div class="teacher">
+                    <div class="profile-photo"><img src="" alt=""></div>
+                    <div class="info">
+                        <h3>Raida Sultangazieva</h3>
+                        <small class="text-muted">Owner</small>
+                    </div>
+                </div>
+                <div class="teacher">
+                    <div class="profile-photo"><img src="winter.jpg" alt=""></div>
+                    <div class="info">
+                        <h3>The Professor</h3>
+                        <small class="text-muted">CEO</small>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
