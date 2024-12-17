@@ -18,10 +18,4 @@ themeToggler.onclick = function() {
     themeToggler.querySelector('span:nth-child(2)').classList.toggle('active')
 }
 
-prevDay.onclick = function() {
-    day>=1 ? day-- : day=6;    
-    setData(day);
-}
 
-setData(day); //To set the data in the table on loading window.
-document.querySelector('.timetable div h2').innerHTML = "Today's Timetable"; //To prevent overwriting the heading on loading;
